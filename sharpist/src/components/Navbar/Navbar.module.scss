@@ -1,0 +1,29 @@
+.wrapper_navbar {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .link_navbar {
+    text-decoration: none;
+    color: #946cee;
+  }
+  .nav_buttons {
+    .btn_nav_login,
+    .btn_nav_signup {
+      margin: 10px;
+    }
+    .btn_nav_login {
+      background: transparent;
+      border-radius: 10px;
+      border: 2px solid #946cee;
+      color: #946cee;
+    }
+    .btn_nav_signup {
+      border-radius: 10px;
+      background-color: #946cee;
+      border: 2px solid #946cee;
+      color: white;
+    }
+  }
+}
