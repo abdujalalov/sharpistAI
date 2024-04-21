@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Header.module.scss";
-import black from "../../assets/black_circle.png";
-import purple from "../../assets/circle_purple.png";
+import black from "../../assets/black.svg";
+import purple from "../../assets/purple.svg";
 const Header = () => {
   return (
     <div className={styles.wrapper_header}>
@@ -21,6 +21,7 @@ const Header = () => {
           collect points, which you can then monitor over time
         </p>
       </div>
+      <div className={styles.videos_youtube}></div>
     </div>
   );
 };
