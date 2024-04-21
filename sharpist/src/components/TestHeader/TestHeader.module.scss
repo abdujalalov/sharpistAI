@@ -7,13 +7,18 @@
     margin: auto;
   }
   .btn_test {
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     font-size: 35px;
     margin: 2rem 0;
     border-radius: 20px;
     background: #946cee;
     outline: none;
     border: 1px solid #946cee;
+    color: white;
+    cursor: pointer;
+  }
+  .btn_test_link {
+    text-decoration: none;
     color: white;
   }
 }

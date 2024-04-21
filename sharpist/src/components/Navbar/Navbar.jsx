@@ -8,9 +8,12 @@ import Button from "@mui/material/Button";
 const Navbar = () => {
   return (
     <div className={styles.wrapper_navbar}>
-      <div className={styles.logo}>
-        <img src={logo} alt="" />
-      </div>
+      <Link to={"/"}>
+        <div className={styles.logo}>
+          <img src={logo} alt="" />
+        </div>
+      </Link>
+
       <Link className={styles.link_navbar} to={"/categories"}>
         Categories
       </Link>

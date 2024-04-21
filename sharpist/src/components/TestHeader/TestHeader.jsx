@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./TestHeader.module.scss";
+import { Link } from "react-router-dom";
 const TestHeader = () => {
   return (
     <div className={styles.test_section}>
@@ -8,7 +9,9 @@ const TestHeader = () => {
         even in the case when you upload the knowledge you received from
         external factors
       </p>
-      <button className={styles.btn_test}>Make a test</button>
+      <Link to={"/maketest"} className={styles.btn_test_link}>
+        <button className={styles.btn_test}>Make test</button>
+      </Link>
     </div>
   );
 };
